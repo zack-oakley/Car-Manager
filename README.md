@@ -3,13 +3,13 @@
 **[Watch the code walkthrough video](https://cdnapisec.kaltura.com/p/391241/embedPlaykitJs/uiconf_id/44855082?iframeembed=true&entry_id=1_plsryv7h&config%5Bprovider%5D=%7B%22widgetId%22%3A%221_mm4h9lnf%22%7D&config%5Bplayback%5D=%7B%22startTime%22%3A0%7D)
 
 
-## 📌 Project Context
+## Project Context
 
 This project was developed as part of a university software engineering course focused on **microservice-based architecture**. The objective was to design and implement a **piece of software of value** by decomposing functionality into independent services that communicate over well-defined interfaces.
 
 I chose to build **Car Manager**, a system that helps users track vehicles, maintenance items, and related data, because it mirrors a real-world CRUD + service-integration problem.
 
-## 🧩 Architecture Overview
+## Architecture Overview
 
 The application is composed of multiple microservices, each responsible for a single domain concern:
 
@@ -35,7 +35,7 @@ Each microservice is **independently deployable, testable, and loosely coupled**
 
 Each service can be developed, tested, and scaled independently, reflecting real-world distributed system patterns.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Flask (REST APIs)
@@ -43,7 +43,7 @@ Each service can be developed, tested, and scaled independently, reflecting real
 - Local persistence (file-based / database-backed storage)
 - Git & GitHub for version control
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I gained hands-on experience with:
 
@@ -53,10 +53,13 @@ Through this project, I gained hands-on experience with:
 - Structuring a codebase for scalability and maintainability
 - Debugging integration issues in distributed systems
 
-## 🚀 Future Improvements
 
-Given more time, I would:
-- Add authentication and user accounts
-- Introduce asynchronous messaging (e.g., message queues)
-- Containerize services with Docker
-- Deploy the system using cloud infrastructure
+## Collaboration & Attribution
+
+This project was completed as part of a team-based assignment.
+
+- The **Calculator Microservice** was implemented by a teammate as part of the overall system.
+- All other services, system integration, and architectural design were implemented by me.
+
+
+
