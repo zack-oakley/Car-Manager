@@ -17,16 +17,16 @@ The application is composed of multiple microservices, each responsible for a si
   Acts as the central orchestrator, handling user interactions and coordinating requests between downstream microservices.
 
 - **Item Storage Microservice**  
-  Manages persistent storage and retrieval of vehicle-related items (e.g., maintenance tasks, parts, or records) via a RESTful API.
+  Manages persistent storage and retrieval of vehicle-related items via a MongoDB database.
 
 - **Issue Tracker Microservice**  
-  Tracks issues and maintenance concerns associated with individual vehicles, enabling separation between vehicle data and issue management logic.
+  Tracks issues submitted by user.
 
 - **Image Microservice**  
-  Handles image-related functionality, such as storing or retrieving images associated with vehicles or maintenance records.
+  Handles image-related functionality, such as storing or retrieving images associated with vehicles.
 
 - **Quote Generator Microservice**  
-  Provides dynamically generated quotes or messages, demonstrating service extensibility and non-critical auxiliary functionality.
+  Provides dynamically generated quotes.
 
 - **Calculator Microservice**  
   Performs isolated calculation logic, illustrating how compute-focused responsibilities can be separated into independent services.
@@ -41,6 +41,7 @@ Each service can be developed, tested, and scaled independently, reflecting real
 - Flask (REST APIs)
 - HTTP/JSON for inter-service communication
 - Local persistence (file-based / database-backed storage)
+- MongoDB database
 - Git & GitHub for version control
 
 ## Learning Outcomes
